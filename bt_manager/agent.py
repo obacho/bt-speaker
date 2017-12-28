@@ -113,7 +113,7 @@ class BTAgent(dbus.service.Object):
     def __init__(self,
                  path='/test/agent',
                  auto_authorize_connections=True,
-                 default_pin_code='0000',
+                 default_pin_code='1102',
                  default_pass_key=0,   # Range: 0-999999
                  cb_notify_on_release=None,
                  cb_notify_on_authorize=None,
